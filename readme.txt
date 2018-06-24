@@ -18,3 +18,5 @@ Merge a branch: git merge <branch-name>;
 Once merge conflict, we have to manually edit the conflict file, then commit.
 
 List branch merge graph: git log --graph --pretty=oneline --abbrev-commit;
+
+Use paremeter '--no--ff' when merge can merge without Fast Forward, and can keep merge history in branch merge graph;
