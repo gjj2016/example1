@@ -1,0 +1,9 @@
+git init: make a directory to a repository;
+git status: check the current status of stage(temp space);
+git add: add a modified file to stage;
+git commit -m 'comment': commit files in stage to the current branch;
+git log: list all versions before and include the current version;
+git reset --hard HEAD^: change version to last commit;(--hard HEAD~1  /  --hard version ID)
+git reflog: list all versions;(once you change to a last version, all versions after that version will be discard, use this commond to list all versions, you can change version to a version after the current version.
+git diff: list the difference between the current version and the last version;
+
