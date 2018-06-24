@@ -13,4 +13,8 @@ Change to another branch: git checkout <branch-name>;
 Create and change branch: git checkout -b <branch-name>;
 Clone a remote repository to local repository: git clone git@github.com:/gjj2016/examples2;(use SSH protocal)
                    or    git clone https://github.com/gjj2016/examples2.git;(use Https protocal,need username and paaaword)
+Delete a branch: git branch -d <branch-name>;
+Merge a branch: git merge <branch-name>;
+Once merge conflict, we have to manually edit the conflict file, then commit.
 
+List branch merge graph: git log --graph --pretty=oneline --abbrev-commit;
